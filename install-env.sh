@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo apt-get update -y
-sduo apt-get install -y apache2 && apt-get install -y git
+sudo apt-get install -y apache2 && apt-get install -y git
 
 git clone https://github.com/Tonakiga/itmo-444-application-setup.git
 git clone https://github.com/Tonakiga/itmo-444-images.git
